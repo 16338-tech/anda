@@ -1,30 +1,156 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="th">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ประวัติส่วนตัว</title>
 
-    <title>ประวัติส่วนตัว</title>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"TH Sarabun New",Tahoma,sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#ffc1d6,#ffe3ef,#ffffff);
+}
+
+.container{
+    width:85%;
+    max-width:850px;
+    margin:50px auto;
+    background:#ffffff;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+    overflow:hidden;
+}
+
+.header{
+    background:#ff4f8b;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.header h1{
+    font-size:48px;
+}
+
+.content{
+    padding:40px;
+}
+
+.profile{
+    text-align:center;
+}
+
+.profile img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    border:5px solid #ff4f8b;
+    object-fit:cover;
+    margin-bottom:20px;
+}
+
+.info{
+    background:#fff0f6;
+    border-left:8px solid #ff4f8b;
+    border-radius:15px;
+    padding:20px;
+    margin:15px 0;
+    transition:.3s;
+}
+
+.info:hover{
+    transform:translateX(8px);
+    box-shadow:0 8px 18px rgba(0,0,0,.15);
+}
+
+.info h2{
+    color:#e91e63;
+    margin-bottom:5px;
+}
+
+.info p{
+    font-size:24px;
+    color:#444;
+}
+
+.btn{
+    display:block;
+    width:220px;
+    margin:35px auto 10px;
+    background:#ff4f8b;
+    color:white;
+    text-decoration:none;
+    text-align:center;
+    padding:15px;
+    border-radius:30px;
+    font-size:24px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#d81b60;
+    transform:scale(1.05);
+}
+
+footer{
+    text-align:center;
+    background:#ffe4ec;
+    color:#666;
+    padding:15px;
+    font-size:20px;
+}
+</style>
 
 </head>
-
 <body>
 
+<div class="container">
 
+    <div class="header">
+        <h1>👤 ประวัติส่วนตัว</h1>
+    </div>
 
-<h1>ประวัติส่วนตัว</h1>
+    <div class="content">
 
+        <div class="profile">
+            <img src="m_slide82 (1).jpg" alt="รูปภาพของอันดา">
+        </div>
 
+        <div class="info">
+            <h2>👨 ชื่อ - สกุล</h2>
+            <p>นายอันดา ผุริจันทร์</p>
+        </div>
 
-<p>ชื่อ นายอันดา  ผุริจันทร์
-      ชื่อเล่น ตูน</p>
+        <div class="info">
+            <h2>😊 ชื่อเล่น</h2>
+            <p>ตูน</p>
+        </div>
 
+        <div class="info">
+            <h2>🏫 สถานศึกษา</h2>
+            <p>โรงเรียนพานทอง</p>
+        </div>
 
+        <div class="info">
+            <h2>🎓 ระดับชั้น</h2>
+            <p>มัธยมศึกษาปีที่ 6/1</p>
+        </div>
 
-<p>โรงเรียนพานทอง</p>
+        <a href="index.html" class="btn">🏠 กลับหน้าหลัก</a>
 
+    </div>
 
+    <footer>
+        Portfolio ของ อันดา ผุริจันทร์ | โรงเรียนพานทอง
+    </footer>
+
+</div>
 
 </body>
-
 </html>
