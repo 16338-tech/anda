@@ -4,19 +4,147 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ผลงาน</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:"TH Sarabun New", Tahoma, sans-serif;
+        }
+
+        body{
+            background:linear-gradient(135deg,#ffb6d9,#ffd6e8,#fff);
+        }
+
+        .container{
+            width:85%;
+            max-width:900px;
+            margin:50px auto;
+            background:#fff;
+            border-radius:20px;
+            box-shadow:0 10px 25px rgba(0,0,0,0.2);
+            overflow:hidden;
+        }
+
+        .header{
+            background:#ff4f8b;
+            color:white;
+            text-align:center;
+            padding:30px;
+        }
+
+        .header h1{
+            font-size:50px;
+        }
+
+        .content{
+            padding:40px;
+        }
+
+        .content p{
+            text-align:center;
+            font-size:28px;
+            margin-bottom:30px;
+            color:#555;
+        }
+
+        .card{
+            background:#fff0f5;
+            border-left:8px solid #ff4f8b;
+            padding:20px;
+            margin-bottom:20px;
+            border-radius:15px;
+            transition:0.3s;
+        }
+
+        .card:hover{
+            transform:translateY(-5px);
+            box-shadow:0 8px 18px rgba(0,0,0,.15);
+        }
+
+        .card h2{
+            color:#e91e63;
+            margin-bottom:10px;
+        }
+
+        .card p{
+            text-align:left;
+            font-size:24px;
+            margin:0;
+            color:#444;
+        }
+
+        .btn{
+            display:block;
+            width:220px;
+            margin:40px auto 0;
+            text-align:center;
+            text-decoration:none;
+            background:#ff4f8b;
+            color:white;
+            padding:15px;
+            border-radius:30px;
+            font-size:24px;
+            transition:.3s;
+        }
+
+        .btn:hover{
+            background:#d81b60;
+            transform:scale(1.05);
+        }
+
+        footer{
+            text-align:center;
+            background:#ffe4ec;
+            padding:15px;
+            color:#666;
+            font-size:20px;
+        }
+    </style>
+
 </head>
 <body>
 
-    <h1>ผลงาน</h1>
+<div class="container">
 
-    <p>ผลงานที่เคยได้รับหรือเข้าร่วม</p>
+    <div class="header">
+        <h1>🏆 ผลงาน</h1>
+    </div>
 
-    <ul>
-        <li>ได้รับเกียรติบัตรการแข่งขัน...</li>
-        <li>เข้าร่วมกิจกรรม...</li>
-        <li>เป็นตัวแทนโรงเรียนพานทองในการแข่งขัน...</li>
-        <li>ได้รับรางวัล...</li>
-    </ul>
+    <div class="content">
+
+        <p>ผลงานและกิจกรรมที่เคยเข้าร่วม</p>
+
+        <div class="card">
+            <h2>📜 เกียรติบัตร</h2>
+            <p>ได้รับเกียรติบัตรเข้าร่วมการแข่งขันหรือกิจกรรมต่าง ๆ</p>
+        </div>
+
+        <div class="card">
+            <h2>🏫 กิจกรรมโรงเรียน</h2>
+            <p>เข้าร่วมกิจกรรมวันวิทยาศาสตร์ กีฬาสี และกิจกรรมจิตอาสา</p>
+        </div>
+
+        <div class="card">
+            <h2>🥇 รางวัล</h2>
+            <p>ได้รับรางวัลจากการแข่งขันหรือกิจกรรมที่เข้าร่วม</p>
+        </div>
+
+        <div class="card">
+            <h2>💻 ทักษะ</h2>
+            <p>สามารถสร้างเว็บไซต์ด้วย HTML และ CSS เบื้องต้น</p>
+        </div>
+
+        <a href="index.html" class="btn">🏠 กลับหน้าหลัก</a>
+
+    </div>
+
+    <footer>
+        © 2026 Portfolio | โรงเรียนพานทอง
+    </footer>
+
+</div>
 
 </body>
 </html>
