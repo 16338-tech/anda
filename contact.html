@@ -1,21 +1,167 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ช่องทางการติดต่อ</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ช่องทางการติดต่อ</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"TH Sarabun New",Tahoma,sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#ffc1d6,#ffe3ef,#ffffff);
+}
+
+.container{
+    width:85%;
+    max-width:850px;
+    margin:50px auto;
+    background:#fff;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+    overflow:hidden;
+}
+
+.header{
+    background:#ff4f8b;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.header h1{
+    font-size:48px;
+}
+
+.content{
+    padding:40px;
+}
+
+.info{
+    display:flex;
+    align-items:center;
+    background:#fff0f6;
+    border-left:8px solid #ff4f8b;
+    border-radius:15px;
+    padding:20px;
+    margin-bottom:20px;
+    transition:.3s;
+}
+
+.info:hover{
+    transform:translateX(8px);
+    box-shadow:0 8px 18px rgba(0,0,0,.15);
+}
+
+.icon{
+    font-size:40px;
+    margin-right:20px;
+}
+
+.text h2{
+    color:#e91e63;
+    margin-bottom:5px;
+}
+
+.text p{
+    font-size:24px;
+    color:#444;
+}
+
+.text a{
+    color:#444;
+    text-decoration:none;
+}
+
+.text a:hover{
+    color:#e91e63;
+}
+
+.btn{
+    display:block;
+    width:220px;
+    margin:35px auto 10px;
+    background:#ff4f8b;
+    color:white;
+    text-decoration:none;
+    text-align:center;
+    padding:15px;
+    border-radius:30px;
+    font-size:24px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#d81b60;
+    transform:scale(1.05);
+}
+
+footer{
+    text-align:center;
+    background:#ffe4ec;
+    color:#666;
+    padding:15px;
+    font-size:20px;
+}
+</style>
+
 </head>
 <body>
 
-    <h1>ช่องทางการติดต่อ</h1>
+<div class="container">
 
-    <p>โรงเรียนพานทอง</p>
+    <div class="header">
+        <h1>📞 ช่องทางการติดต่อ</h1>
+    </div>
 
-    <h2>ข้อมูลการติดต่อ</h2>
-    <p>📍 ที่อยู่: โรงเรียนพานทอง</p>
-    <p>📞 โทรศัพท์: 0910519757</p>
-    <p>📧 อีเมล: anda67904@gmail.com</p>
-    <p>🌐 ig:andx_kwl</p>
+    <div class="content">
+
+        <div class="info">
+            <div class="icon">🏫</div>
+            <div class="text">
+                <h2>โรงเรียน</h2>
+                <p>โรงเรียนพานทอง</p>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="icon">📱</div>
+            <div class="text">
+                <h2>โทรศัพท์</h2>
+                <p><a href="tel:0910519757">091-051-9757</a></p>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="icon">📧</div>
+            <div class="text">
+                <h2>อีเมล</h2>
+                <p><a href="mailto:anda67904@gmail.com">anda67904@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="icon">📷</div>
+            <div class="text">
+                <h2>Instagram</h2>
+                <p><a href="https://www.instagram.com/andx_kwl" target="_blank">@andx_kwl</a></p>
+            </div>
+        </div>
+
+        <a href="index.html" class="btn">🏠 กลับหน้าหลัก</a>
+
+    </div>
+
+    <footer>
+        Portfolio ของ อันดา ผุริจันทร์ | โรงเรียนพานทอง
+    </footer>
+
+</div>
 
 </body>
 </html>
