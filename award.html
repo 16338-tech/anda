@@ -1,136 +1,94 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ผลงาน</title>
-
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-            font-family:"TH Sarabun New", Tahoma, sans-serif;
-        }
-
-        body{
-            background:linear-gradient(135deg,#ffb6d9,#ffd6e8,#fff);
-        }
-
-        .container{
-            width:85%;
-            max-width:900px;
-            margin:50px auto;
-            background:#fff;
-            border-radius:20px;
-            box-shadow:0 10px 25px rgba(0,0,0,0.2);
-            overflow:hidden;
-        }
-
-        .header{
-            background:#ff4f8b;
-            color:white;
-            text-align:center;
-            padding:30px;
-        }
-
-        .header h1{
-            font-size:50px;
-        }
-
-        .content{
-            padding:40px;
-        }
-
-        .content p{
-            text-align:center;
-            font-size:28px;
-            margin-bottom:30px;
-            color:#555;
-        }
-
-        .card{
-            background:#fff0f5;
-            border-left:8px solid #ff4f8b;
-            padding:20px;
-            margin-bottom:20px;
-            border-radius:15px;
-            transition:0.3s;
-        }
-
-        .card:hover{
-            transform:translateY(-5px);
-            box-shadow:0 8px 18px rgba(0,0,0,.15);
-        }
-
-        .card h2{
-            color:#e91e63;
-            margin-bottom:10px;
-        }
-
-        .card p{
-            text-align:left;
-            font-size:24px;
-            margin:0;
-            color:#444;
-        }
-
-        .btn{
-            display:block;
-            width:220px;
-            margin:40px auto 0;
-            text-align:center;
-            text-decoration:none;
-            background:#ff4f8b;
-            color:white;
-            padding:15px;
-            border-radius:30px;
-            font-size:24px;
-            transition:.3s;
-        }
-
-        .btn:hover{
-            background:#d81b60;
-            transform:scale(1.05);
-        }
-
-        footer{
-            text-align:center;
-            background:#ffe4ec;
-            padding:15px;
-            color:#666;
-            font-size:20px;
-        }
-    </style>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ผลงาน | Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+<nav>
+    <a href="index.html">หน้าหลัก</a>
+    <a href="profile.html">ประวัติส่วนตัว</a>
+    <a href="education.html">การศึกษา</a>
+    <a href="award.html">ผลงาน</a>
+    <a href="contact.html">ติดต่อ</a>
+</nav>
 
 <div class="container">
 
-  <div class=”card“>
-    <h2>📜 เกียรติบัตร</h2>
-    <img src=”images5f71643a-7983-4b26-8798-03f2ad405714.jpg“ alt=”เกียรติบัตร“>
-    <p>ได้รับเกียรติบัตรเข้าร่วมการแข่งขันหรือกิจกรรมต่าง ๆ</p>
-</div>
+    <h1 class="title">🏆 ผลงานและกิจกรรม</h1>
 
-<div class=”card“>
-    <h2>🏫 กิจกรรมโรงเรียน</h2>
-    <img src=”images/activity.jpg“ alt=”กิจกรรมโรงเรียน“>
-    <p>เข้าร่วมกิจกรรมวันวิทยาศาสตร์ กีฬาสี และกิจกรรมจิตอาสา</p>
-</div>
+    <div class="work-card">
+        <div class="images">
+            <img src="images/C3E621C8-54E1-4F96-AB34-77A9121AD9D6.jpg">
+            <img src="images/S__26918919.jpg">
+        </div>
 
-<div class=”card“>
-    <h2>🥇 รางวัล</h2>
-    <img src=”images/award.jpg“ alt=”รางวัล“>
-    <p>ได้รับรางวัลจากการแข่งขันหรือกิจกรรมที่เข้าร่วม</p>
-</div>
+        <div class="info">
+            <h2>กิจกรรมค่ายพอร์ตพาทำ</h2>
+            <p>
+                เข้าร่วมกิจกรรมค่ายพอร์ตพาทำของโรงเรียนพานทอง
+                เพื่อรับความรู้และคำแนะนำในการจัดทำ Portfolio
+                สำหรับการศึกษาต่อระดับมหาวิทยาลัย
+            </p>
+        </div>
+    </div>
 
-<div class=”card“>
-    <h2>💻 ทักษะ</h2>
-    <img src=”images/skill.jpg“ alt=”ทักษะ“>
-    <p>สามารถสร้างเว็บไซต์ด้วย HTML และ CSS เบื้องต้น</p>
+    <div class="work-card">
+        <img class="single" src="images/338631E4-0BCF-48F0-8D06-EC36D398B6C6.jpg">
+
+        <div class="info">
+            <h2>กิจกรรมจิตอาสา</h2>
+            <p>เข้าร่วมพิธีเฉลิมพระเกียรติสมเด็จพระนางเจ้าฯ พระบรมราชินี และร่วมทำกิจกรรมจิตอาสาเพื่อสังคม</p>
+        </div>
+    </div>
+
+    <div class="work-card">
+        <img class="single" src="images/280455FE-9847-49EA-8A62-D4599B3B299A.jpg">
+
+        <div class="info">
+            <h2>ชนะเลิศการแข่งขันฟุตซอล</h2>
+            <p>ชนะเลิศการแข่งขันฟุตซอลต้านภัยสารเสพติด รุ่นอายุไม่เกิน 16 ปี</p>
+        </div>
+    </div>
+
+    <div class="work-card">
+        <img class="single" src="images/CC884C2A-3B02-40BD-A778-72254EFE14D0.jpg">
+
+        <div class="info">
+            <h2>การแข่งขันฟุตซอล</h2>
+            <p>เข้าร่วมการแข่งขันฟุตซอลนักเรียนนักศึกษา รุ่นอายุไม่เกิน 17 ปี</p>
+        </div>
+    </div>
+
+    <div class="work-card">
+        <img class="single" src="images/S__26918916.jpg">
+
+        <div class="info">
+            <h2>การแข่งขันฟุตบอล</h2>
+            <p>เข้าร่วมการแข่งขันฟุตบอลออมสิน Youth Sports Festival รุ่นอายุไม่เกิน 18 ปี</p>
+        </div>
+    </div>
+
+    <div class="work-card">
+        <img class="single" src="images/11804636-D979-4BC0-8986-E67D6DF35EE2.jpg">
+
+        <div class="info">
+            <h2>กิจกรรมศึกษาดูงาน</h2>
+            <p>เข้าร่วมกิจกรรมศึกษาดูงาน ณ โรงไฟฟ้าบางปะกง</p>
+        </div>
+    </div>
+
+    <div style="text-align:center;margin:50px 0;">
+        <a href="index.html" class="btn">⬅ กลับหน้าหลัก</a>
+    </div>
+
 </div>
 
 </body>
+</html>
+
 </html>
